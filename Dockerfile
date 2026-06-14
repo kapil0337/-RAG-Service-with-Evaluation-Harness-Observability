@@ -20,6 +20,9 @@ RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
 # inside the container without a separate install step.
 RUN pip install -r requirements-eval.txt
 
+# RAGAS's faithfulness metric uses nltk's sentence tokenizer.
+RUN python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+
 COPY app ./app
 COPY evals ./evals
 COPY scripts ./scripts
