@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Service</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>RAG Service</h1>
+    <div id="health-badge" class="badge badge-unknown">checking...</div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="ask">Ask</button>
+    <button class="tab-btn" data-tab="documents">Documents</button>
+  </nav>
+
+  <main>
+    <!-- Ask panel -->
+    <section id="ask-panel" class="panel active">
+      <form id="query-form">
+        <textarea id="question" placeholder="Ask a question about your documents..." rows="3" required></textarea>
+
+        <div class="controls-row">
+          <label>
+            Top K
+            <input type="number" id="top-k" min="1" max="50" placeholder="default" />
+          </label>
+
+          <label class="checkbox-label">
+            <input type="checkbox" id="rerank" />
+            Rerank
+          </label>
+
+          <label>
+            Document
+            <select id="document-filter">
+              <option value="">All documents</option>
+            </select>
+          </label>
+
+          <button type="submit" id="ask-btn">Ask</button>
+        </div>
+      </form>
+
+      <div id="ask-status" class="status hidden"></div>
+
+      <div id="answer-card" class="card hidden">
+        <h2>Answer</h2>
+        <p id="answer-text"></p>
+
+        <div id="citations-section">
+          <h3>Citations</h3>
+          <div id="citations-list"></div>
+        </div>
+
+        <div id="meta-row" class="meta-row"></div>
+      </div>
+    </section>
+
+    <!-- Documents panel -->
+    <section id="documents-panel" class="panel">
+      <div class="card">
+        <h2>Upload Document</h2>
+        <form id="upload-form">
+          <input type="file" id="upload-file" accept=".pdf,.md,.markdown,.txt" required />
+          <div class="controls-row">
+            <label>
+              Chunk size
+              <input type="number" id="chunk-size" min="1" placeholder="default" />
+            </label>
+            <label>
+              Chunk overlap
+              <input type="number" id="chunk-overlap" min="0" placeholder="default" />
+            </label>
+            <button type="submit" id="upload-btn">Upload &amp; Ingest</button>
+          </div>
+        </form>
+        <div id="upload-status" class="status hidden"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header-row">
+          <h2>Documents</h2>
+          <button id="reindex-all-btn">Re-index all</button>
+        </div>
+        <div id="documents-status" class="status hidden"></div>
+        <table id="documents-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Filename</th>
+              <th>Chunks</th>
+              <th>Chunk size</th>
+              <th>Overlap</th>
+              <th>Created</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="documents-tbody">
+            <tr><td colspan="7" class="empty-row">No documents ingested yet.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

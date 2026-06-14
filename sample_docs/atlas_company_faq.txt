@@ -1,0 +1,27 @@
+ATLAS DYNAMICS — FREQUENTLY ASKED QUESTIONS
+
+About the company
+------------------
+Atlas Dynamics was founded in 2021 and is headquartered in Bengaluru, India.
+The company designs and manufactures autonomous robots for warehouse and
+logistics automation. Atlas Dynamics has three offices: Bengaluru
+(headquarters), Chennai, and Pune.
+
+Support
+-------
+Enterprise customers receive 24/7 support. Standard-plan customers receive
+support from 9:00 AM to 6:00 PM IST on business days. The support email is
+support@atlasdynamics.example and the average first-response time is under
+4 hours.
+
+Orders and returns
+------------------
+Products can be returned within 30 days of delivery for a full refund,
+provided they are in original condition. Custom-configured units are
+non-returnable. Standard shipping within India takes 5 to 7 business days.
+
+Warranty
+--------
+All hardware products carry a standard 2-year warranty covering
+manufacturing defects. Extended warranty of up to 5 years can be purchased
+separately.

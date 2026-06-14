@@ -1,0 +1,67 @@
+[
+  {
+    "question": "How many days of annual leave do Atlas Dynamics employees get?",
+    "ground_truth": "21 days of annual leave per calendar year, in addition to 12 public holidays.",
+    "source": "atlas_employee_handbook.md"
+  },
+  {
+    "question": "What is the notice period after probation is completed?",
+    "ground_truth": "60 days.",
+    "source": "atlas_employee_handbook.md"
+  },
+  {
+    "question": "Which days are employees expected to be in the office?",
+    "ground_truth": "Tuesday, Wednesday, and Thursday.",
+    "source": "atlas_employee_handbook.md"
+  },
+  {
+    "question": "How much is the annual learning budget per employee?",
+    "ground_truth": "INR 40,000 per year.",
+    "source": "atlas_employee_handbook.md"
+  },
+  {
+    "question": "What is the maximum payload of the Aurora X1?",
+    "ground_truth": "50 kg.",
+    "source": "atlas_aurora_x1_spec.pdf"
+  },
+  {
+    "question": "How long does the Aurora X1 battery last, and how long does it take to fully charge?",
+    "ground_truth": "8 hours of runtime per full charge, with a 90-minute full charge time.",
+    "source": "atlas_aurora_x1_spec.pdf"
+  },
+  {
+    "question": "How much does one Aurora X1 unit cost?",
+    "ground_truth": "INR 12,00,000.",
+    "source": "atlas_aurora_x1_spec.pdf"
+  },
+  {
+    "question": "How many Aurora X1 units can a single Atlas Fleet Controller coordinate?",
+    "ground_truth": "Up to 20 units.",
+    "source": "atlas_aurora_x1_spec.pdf"
+  },
+  {
+    "question": "In what year was Atlas Dynamics founded and where is it headquartered?",
+    "ground_truth": "Founded in 2021, headquartered in Bengaluru, India.",
+    "source": "atlas_company_faq.txt"
+  },
+  {
+    "question": "What is the return window for products?",
+    "ground_truth": "30 days of delivery, provided items are in original condition. Custom-configured units are non-returnable.",
+    "source": "atlas_company_faq.txt"
+  },
+  {
+    "question": "What is the warranty period on Atlas Dynamics hardware?",
+    "ground_truth": "A standard 2-year warranty, extendable up to 5 years.",
+    "source": "atlas_company_faq.txt; atlas_aurora_x1_spec.pdf"
+  },
+  {
+    "question": "Can the Aurora X1 operate underwater?",
+    "ground_truth": "The documents do not provide this information.",
+    "source": "UNANSWERABLE - tests abstention"
+  },
+  {
+    "question": "What is Atlas Dynamics' policy on stock options for employees?",
+    "ground_truth": "The documents do not provide this information.",
+    "source": "UNANSWERABLE - tests abstention"
+  }
+]

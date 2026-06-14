@@ -1,0 +1,96 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 1635 >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 56 736 Tm
+() Tj
+/F2 13 Tf
+1 0 0 1 56 722 Tm
+(Aurora X1 - Autonomous Warehouse Robot) Tj
+/F1 10 Tf
+1 0 0 1 56 708 Tm
+(Atlas Dynamics - Product Specification Sheet) Tj
+1 0 0 1 56 694 Tm
+() Tj
+/F2 13 Tf
+1 0 0 1 56 680 Tm
+(Overview) Tj
+/F1 10 Tf
+1 0 0 1 56 666 Tm
+(The Aurora X1 is an autonomous mobile robot designed for warehouse and logistics environments.) Tj
+1 0 0 1 56 652 Tm
+(It navigates using a combination of LiDAR and camera-based SLAM, and can operate continuously) Tj
+1 0 0 1 56 638 Tm
+(alongside human workers.) Tj
+1 0 0 1 56 624 Tm
+() Tj
+/F2 13 Tf
+1 0 0 1 56 610 Tm
+(Technical Specifications) Tj
+/F1 10 Tf
+1 0 0 1 56 596 Tm
+(Maximum payload         50 kg) Tj
+1 0 0 1 56 582 Tm
+(Top speed               2.0 m/s) Tj
+1 0 0 1 56 568 Tm
+(Battery runtime         8 hours per full charge) Tj
+1 0 0 1 56 554 Tm
+(Full charge time        90 minutes) Tj
+1 0 0 1 56 540 Tm
+(Navigation              LiDAR + camera SLAM) Tj
+1 0 0 1 56 526 Tm
+(Connectivity            Wi-Fi 6 \(5G optional\)) Tj
+1 0 0 1 56 512 Tm
+(Operating temperature   0 to 45 degrees Celsius) Tj
+1 0 0 1 56 498 Tm
+(Weight                  85 kg) Tj
+1 0 0 1 56 484 Tm
+(Unit price              INR 12,00,000) Tj
+1 0 0 1 56 470 Tm
+(Warranty                2 years standard) Tj
+1 0 0 1 56 456 Tm
+() Tj
+/F2 13 Tf
+1 0 0 1 56 442 Tm
+(Deployment Notes) Tj
+/F1 10 Tf
+1 0 0 1 56 428 Tm
+(A single Aurora X1 can service a floor area of up to 2,000 square metres. Up to 20 units can be) Tj
+1 0 0 1 56 414 Tm
+(coordinated by one Atlas Fleet Controller. Firmware updates are delivered over the air and) Tj
+1 0 0 1 56 400 Tm
+(require no on-site technician.) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000001947 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2083
+%%EOF
